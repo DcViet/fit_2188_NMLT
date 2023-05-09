@@ -1,5 +1,6 @@
 # DOAN_NMLT_KHTN_DTTX
 Đồ án Nhập môn lập trình_ hệ DTTX
+.NET mấy cũng được, MS Studio code bản nào cũng được, cứ hiện có hoặc cũ 1 vài version, đừng xem clip r xài như thời tiền xử, mới nhất càng tốt.
 *!!! Chỉ sử dụng kiến thức trong phạm vi môn học:*
 Không sử dụng **class**, tự định nghĩa các kiểu dữ liệu **(struct)**, không sử dụng các thư viện, hàm có sẵn. (trừ hàm DateTime)
 Không ràng buộc về logic chương trình nhưng code cần phải chạy và đảm bảo đủ các yêu cầu.
@@ -62,8 +63,21 @@ struct SinhVien
 
             Console.ReadLine();
         }
+        
+        
 
-
+ static void NhapThongTinMatHang(out MatHang MH)
+        {
+            Console.Write(" Ma so: ");
+            SV.MaSo = int.Parse(Console.ReadLine());
+            Console.Write(" Ho ten: ");
+            SV.HoTen = Console.ReadLine();
+            Console.Write(" Diem toan: ");
+            SV.DiemToan = Double.Parse(Console.ReadLine());
+            Console.Write(" Diem ly: ");
+            SV.DiemLy = Double.Parse(Console.ReadLine());
+            Console.Write(" Diem van: ");
+            SV.DiemVan = Double.Parse(Console.ReadLine())
 ```
 
  Lưu ý: bên trong vẫn còn 2 khai báo chưa được nhắc đến đó là:
