@@ -1,6 +1,6 @@
 # DOAN_NMLT_KHTN_DTTX
 Đồ án Nhập môn lập trình_ hệ DTTX
-*Chỉ sử dụng kiến thức trong phạm vi môn học:*
+*!!! Chỉ sử dụng kiến thức trong phạm vi môn học:*
 Không sử dụng **class**, tự định nghĩa các kiểu dữ liệu **(struct)**, không sử dụng các thư viện, hàm có sẵn. (trừ hàm DateTime)
 Không ràng buộc về logic chương trình nhưng code cần phải chạy và đảm bảo đủ các yêu cầu.
 
@@ -14,11 +14,57 @@ Muốn sử dụng phải khởi tạo cấp phát vùng nhớ cho đối tượ
 Struct không được phép kế thừa (sẽ học trong môn OOP).
 
 ví dụ: Khai báo struct 
+```
 struct MatHang
 {
 public int Ma;
 public string Ten;
 }
+
+struct SinhVien
+        {
+            public int MaSo;
+            public string HoTen;
+        }
+
+        static void NhapThongTinSinhVien(out SinhVien SV)
+        {
+            Console.Write(" Ma so: ");
+            SV.MaSo = int.Parse(Console.ReadLine());
+            Console.Write(" Ho ten: ");
+            SV.HoTen = Console.ReadLine();
+            Console.Write(" Diem toan: ");
+            SV.DiemToan = Double.Parse(Console.ReadLine());
+            Console.Write(" Diem ly: ");
+            SV.DiemLy = Double.Parse(Console.ReadLine());
+            Console.Write(" Diem van: ");
+            SV.DiemVan = Double.Parse(Console.ReadLine());
+        }
+        
+        static double DiemTBSinhVien(SinhVien SV)
+        {
+            return (SV.DiemToan + SV.DiemLy + SV.DiemVan) / 3;
+        }
+
+        static void Main(string[] args)
+        {
+            /*
+             * Khai báo 1 kiểu dữ liệu SinhVien với các trường thông tin như đề bài.
+             * Khai báo và khởi tạo 1 đối tượng SV1 kiểu SinhVien.
+             */
+            SinhVien SV1 = new SinhVien();
+            Console.WriteLine(" Nhap thong tin sinh vien: ");
+            NhapThongTinSinhVien(out SV1);
+            Console.WriteLine("*********");
+            Console.WriteLine(" Thong tin sinh vien vua nhap la: ");
+            XuatThongTinSinhVien(SV1);
+            Console.WriteLine(" Diem TB cua sinh vien la: " + DiemTBSinhVien(SV1));
+
+            Console.ReadLine();
+        }
+
+
+```
 
  Lưu ý: bên trong vẫn còn 2 khai báo chưa được nhắc đến đó là:
 
