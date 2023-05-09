@@ -66,11 +66,11 @@ struct SinhVien
         
         
 
- static void NhapThongTinMatHang(out MatHang MH)
+ static void NhapThongTinMatHang(out MatHang Mh)
         {
-            Console.Write(" Ma so: ");
-            SV.MaSo = int.Parse(Console.ReadLine());
-            Console.Write(" Ho ten: ");
+            Console.Write("Ma: ");
+            Mh.MaSo = int.Parse(Console.ReadLine());
+            Console.Write("tten: ");
             SV.HoTen = Console.ReadLine();
             Console.Write(" Diem toan: ");
             SV.DiemToan = Double.Parse(Console.ReadLine());
