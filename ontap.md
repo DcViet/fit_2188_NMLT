@@ -1,7 +1,7 @@
 hk1 22-23 (12/11/2022)
 câu 1:[3đ]: viết hàm nhận vào 3 tham số ngày tháng năm cho biết đó là ngày thứ mấy trong tuần. 
 *bài làm:* 
-'''csharp
+'''cs
 using System;
 public struct ThuNgay
 {
