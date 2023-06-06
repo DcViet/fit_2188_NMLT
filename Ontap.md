@@ -1,3 +1,8 @@
+---
+title: ABOUT PAGE
+layout: template
+filename: Ontap.md
+--- 
 #hk1 22-23 (12/11/2022)
 câu 1:[3đ]: viết hàm nhận vào 3 tham số ngày tháng năm cho biết đó là ngày thứ mấy trong tuần.
 *write a function that takes in 3 arguments the date of the year indicating what day of the week it is.*
