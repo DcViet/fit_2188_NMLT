@@ -1,6 +1,9 @@
-hk1 22-23 (12/11/2022)
-câu 1:[3đ]: viết hàm nhận vào 3 tham số ngày tháng năm cho biết đó là ngày thứ mấy trong tuần. 
-*bài làm:* 
+#hk1 22-23 (12/11/2022)
+câu 1:[3đ]: viết hàm nhận vào 3 tham số ngày tháng năm cho biết đó là ngày thứ mấy trong tuần.
+*write a function that takes in 3 arguments the date of the year indicating what day of the week it is.*
+***Hướng làm: nếu không sử dụng các hàm trong thư viện có sẵn (vd: hàm Datetime,..) 
+có thể sử dụng công thức Zeller's Congruence***
+**bài làm:** 
 '''cs
 using System;
 public struct ThuNgay
@@ -10,6 +13,16 @@ public struct ThuNgay
   public int Nam;
   
 public class Program 
+{
+  public static void Main(string[] args)
+  {
+    ThuNgay thuNgay = new ThuNgay { 
+    int 
+    Console.WriteLine(
+  }
+  
+  public static int TimThuNgay(
+}
 }
 '''
 câu 2:4đ: viết hàm đếm số lần xuất hiện của phần tử nhỏ nhất trong mảng 1 chiều các số nguyên. 
