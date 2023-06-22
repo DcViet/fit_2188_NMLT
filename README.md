@@ -1,4 +1,7 @@
-# DOAN_NMLT_KHTN_DTTX
+# DOAN_NMLT_KHTN
+#
+![Doan](https://gifdb.com/images/high/computer-system-coding-j3szfjv9fwb5at9x.gif)
+
 Đồ án Nhập môn lập trình_ hệ DTTX
 .NET mấy cũng được, MS Studio code bản nào cũng được, cứ hiện có hoặc cũ 1 vài version, đừng xem clip r xài như thời tiền xử, mới nhất càng tốt.
 *!!! Chỉ sử dụng kiến thức trong phạm vi môn học:*
