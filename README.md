@@ -2,7 +2,7 @@
 #
 ![Doan](https://gifdb.com/images/high/computer-system-coding-j3szfjv9fwb5at9x.gif)
 
-Đồ án Nhập môn lập trình_ hệ DTTX
+Đồ án Nhập môn lập trình
 .NET mấy cũng được, MS Studio code bản nào cũng được, cứ hiện có hoặc cũ 1 vài version, đừng xem clip r xài như thời tiền xử, mới nhất càng tốt.
 *!!! Chỉ sử dụng kiến thức trong phạm vi môn học:*
 Không sử dụng **class**, tự định nghĩa các kiểu dữ liệu **(struct)**, không sử dụng các thư viện, hàm có sẵn. (trừ hàm DateTime)
